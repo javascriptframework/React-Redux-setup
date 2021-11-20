@@ -14,3 +14,6 @@ export const setCounterAction = (count) => {
     return { type: 'SET_COUNT', payload: count}
 }
 
+export const updateStudentName = (studentName) => {
+    return { type: 'UPDATE_STUDENT_NAME', payload: {studentName, city: 'chennai'}}
+}
